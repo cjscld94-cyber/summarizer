@@ -10,7 +10,7 @@ st.title("📝 학생 프로젝트 보고서 요약기+")
 st.caption("보고서를 50/100/300/500자로 요약하고, AI 추천 질문 기반 관점 요약도 생성합니다.")
 
 # OpenAI 클라이언트
-client = OpenAI(api_key=st.secrets["openai_api_key"])
+client = OpenAI(api_key=st.secrets["openai_api_key=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"])
 
 SAMPLE_REPORT = (
     "우리 팀은 기후 변화로 인한 이상기온과 자연재해 발생을 예측하기 위해 인공지능 기술을 활용한 프로젝트를 진행하였다. "
